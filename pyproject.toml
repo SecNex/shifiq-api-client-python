@@ -22,6 +22,9 @@ dependencies = [
     "websockets>=11.0.3",
 ]
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
 [project.urls]
 "Homepage" = "https://github.com/secnex/shifiq-api-client"
 "Bug Tracker" = "https://github.com/secnex/shifiq-api-client/issues" 
