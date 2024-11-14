@@ -1,4 +1,5 @@
-from client import ApiClient
+from ...client import ApiClient
+from ..connection import PlayerWebSocketHandler
 
 class PlayerConfiguration:
     id: str
@@ -13,7 +14,6 @@ class Player:
 
     def init_websocket(self, ws_url: str, player_id: str):
         """Initialize WebSocket connection for receiving commands"""
-        from ..connection import PlayerWebSocketHandler
         self.websocket_handler = PlayerWebSocketHandler(
             ws_url=ws_url,
             player_id=player_id,
