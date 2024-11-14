@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "shifiq-api-client"
+name = "shifiq-sdk"
 version = "0.1.0"
 authors = [
     { name = "Björn Benouarets", email = "bjoern@secnex.io" }
 ]
-description = "Python client for the Shifiq API"
+description = "Python SDK for ShifIQ"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.7"
@@ -26,5 +26,5 @@ dependencies = [
 package-dir = {"" = "src"}
 
 [project.urls]
-"Homepage" = "https://github.com/secnex/shifiq-api-client"
-"Bug Tracker" = "https://github.com/secnex/shifiq-api-client/issues" 
+"Homepage" = "https://github.com/secnex/shifiq-sdk-python"
+"Bug Tracker" = "https://github.com/secnex/shifiq-sdk-python/issues" 
