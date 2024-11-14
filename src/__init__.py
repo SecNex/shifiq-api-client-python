@@ -1,3 +1,3 @@
 from .shifiq import ShifIQ
-
-__all__ = ["ShifIQ"]
+from .api import *
+from .client import *
